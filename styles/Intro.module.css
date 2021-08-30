@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Permanent+Marker&display=swap");
+@keyframes sunBright {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 0.1;
+  }
+
+  40% {
+    opacity: 0.2;
+  }
+  60% {
+    opacity: 0.3;
+  }
+  80% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+@keyframes forestBright {
+  0% {
+    filter: brightness(0.03);
+  }
+  25% {
+    filter: brightness(0.2);
+  }
+  50% {
+    filter: brightness(0.4);
+  }
+  75% {
+    filter: brightness(0.6);
+  }
+  100% {
+    filter: brightness(1);
+  }
+}
+@keyframes britting {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  30% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  70% {
+    opacity: 0.7;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr 1.43fr 2fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto 0.9fr 0.5fr 1fr;
+  justify-content: center;
+  height: 100%;
+}
+.Bhome {
+  width: 100%;
+  height: 101vh;
+  overflow: hidden;
+  position: absolute;
+  animation-name: forestBright;
+  animation-duration: 5s;
+  animation-delay: 0s;
+}
+.moon {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  position: relative;
+  align-self: center;
+  width: 30vh;
+  height: 20vh;
+  animation-name: sunBright;
+  animation-delay: 0s;
+  animation-duration: 5s;
+  opacity: 0.5;
+}
+
+.h1 {
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-family: "Permanent Marker", cursive;
+}
+
+.yasDiv {
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  position: relative;
+}
+.gratingDiv {
+  grid-column: 3/5;
+  grid-row: 2;
+  position: relative;
+  letter-spacing: 0.055em;
+}
+.grating {
+  animation-name: britting;
+  animation-delay: 0s;
+  animation-duration: 1s;
+}
+.welcome {
+  animation-name: britting;
+  animation-delay: 0s;
+  animation-duration: 3s;
+}
+.yasaman {
+  animation-name: britting;
+  animation-delay: 0s;
+  animation-duration: 6s;
+}
+.welcomeDiv {
+  grid-column: 3/5;
+  grid-row: 3;
+  position: relative;
+}

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.container {
+  background-image: linear-gradient(rgb(125, 118, 221), rgb(211, 202, 202));
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.h1 {
+  left: 10%;
+  position: fixed;
+  font-family: "Pacifico", cursive;
+  font-size: 10rem;
+  margin-top: 0;
+  color: black;
+}
+.form {
+  width: 80vh;
+  position: fixed;
+  top: 30%;
+  left: 15%;
+}
+.content {
+  height: 30vh;
+  width: 70vh;
+  border-radius: 15px;
+}
+.labal {
+  display: inherit;
+  font-family: "Anton", sans-serif;
+  color: black;
+}
+.input {
+  width: 70vh;
+  border-radius: 15px;
+  height: 45px;
+}
+.button {
+  background-image: linear-gradient(rgb(101, 92, 230), rgb(211, 202, 202));
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+}
+.ex {
+  width: 50vh;
+  height: 50vh;
+  position: absolute;
+  left: 60%;
+  top: 35%;
+  border-radius: 50%;
+}
+.bye {
+  left: 55%;
+  top: 9%;
+  position: absolute;
+  width: 60vh;
+  font-family: "Pacifico", cursive;
+  color: black;
+}

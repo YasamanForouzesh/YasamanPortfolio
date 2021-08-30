@@ -1,0 +1,88 @@
+@keyframes slidein {
+  0% {
+    right: -100%;
+  }
+  100% {
+    right: 0%;
+  }
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  position: fixed;
+  right: 0;
+  margin-right: 20px;
+  bottom: 0;
+  margin-bottom: 40px;
+  animation: slidein 2s 0s;
+}
+.float {
+  grid-column: 2;
+  grid-row: 1/4;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: rgb(112, 100, 200);
+  opacity: 0.9;
+  width: 40px;
+}
+.linkedin {
+  width: 30px;
+  height: 30px;
+  grid-row: 1;
+  margin-top: 20px;
+  visibility: visible;
+}
+.github {
+  width: 30px;
+  height: 30px;
+  grid-row: 2;
+  margin-top: 20px;
+}
+.resume {
+  width: 30px;
+  height: 30px;
+  grid-row: 3;
+  margin-top: 20px;
+}
+.linkedinT {
+  grid-column: 1;
+  grid-row: 1;
+  visibility: hidden;
+}
+.githubT {
+  grid-column: 1;
+  grid-row: 2;
+  visibility: hidden;
+}
+.resumeT {
+  grid-column: 1;
+  grid-row: 3;
+  visibility: hidden;
+}
+.h1 {
+  font-size: 20px;
+  color: white;
+  margin-right: 10px;
+  padding: 2px 2px 2px 2px;
+  border-radius: 10px;
+}
+.float .a .github:hover ~ .container .githubT {
+  visibility: visible;
+}
+/* .test {
+  width: 50vh;
+  height: 50vh;
+}
+.h4 {
+  visibility: hidden;
+}
+.h3 {
+  visibility: hidden;
+}
+.test:hover   {
+  background-color: ;
+} */
