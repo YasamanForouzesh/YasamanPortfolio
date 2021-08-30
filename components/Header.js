@@ -3,12 +3,6 @@ import Head from 'next/head'
 export default function Header(props){
     return(
         <>
-        <Head>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
-            rel="stylesheet"
-            />
-        </Head>
             <nav id="nav">
                 <img className="navbar pic" src="/yasi1.jpg"/>
                 <div className="Wnavbar">
